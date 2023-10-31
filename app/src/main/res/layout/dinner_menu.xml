@@ -34,7 +34,7 @@
         android:ems="10"
         android:inputType="text"
         android:textStyle="italic"
-        android:text="Add New Food..." />
+        android:hint="Add New Food..." />
 
     <Button
         android:id="@+id/foodBtn"
@@ -43,7 +43,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:backgroundTint="#47616C"
-        android:onClick="click"
+        android:onClick="addFoodClick"
         android:text="Add Food"
         android:textColor="@color/white" />
 
@@ -54,7 +54,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:backgroundTint="#47616C"
-        android:onClick="click"
+        android:onClick="decideClick"
         android:text="Decide!"
         android:textColor="@color/white" />
 
