@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun click(view: View) {
-        binding.tv.text = "Hello Kotlin World"
+        binding.heading.text = "Hello Kotlin World"
     }
 }
